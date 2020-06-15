@@ -1,0 +1,104 @@
+Enter location: Moscow State University
+Retrieving http://py4e-data.dr-chuck.net/json?address=Moscow+State+University&key=42
+Retrieved 2373 characters
+{
+    "results": [
+        {
+            "address_components": [
+                {
+                    "long_name": "1",
+                    "short_name": "1",
+                    "types": [
+                        "street_number"
+                    ]
+                },
+                {
+                    "long_name": "ulitsa Leninskiye Gory",
+                    "short_name": "ul. Leninskiye Gory",
+                    "types": [
+                        "route"
+                    ]
+                },
+                {
+                    "long_name": "Zapadnyy administrativnyy okrug",
+                    "short_name": "Zapadnyy administrativnyy okrug",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_1"
+                    ]
+                },
+                {
+                    "long_name": "Moskva",
+                    "short_name": "Moskva",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Ramenki",
+                    "short_name": "Ramenki",
+                    "types": [
+                        "administrative_area_level_3",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Moskva",
+                    "short_name": "Moskva",
+                    "types": [
+                        "administrative_area_level_2",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Russia",
+                    "short_name": "RU",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "119991",
+                    "short_name": "119991",
+                    "types": [
+                        "postal_code"
+                    ]
+                }
+            ],
+            "formatted_address": "ul. Leninskiye Gory, 1, Moskva, Russia, 119991",
+            "geometry": {
+                "location": {
+                    "lat": 55.70393490000001,
+                    "lng": 37.5286696
+                },
+                "location_type": "ROOFTOP",
+                "viewport": {
+                    "northeast": {
+                        "lat": 55.70528388029151,
+                        "lng": 37.5300185802915
+                    },
+                    "southwest": {
+                        "lat": 55.70258591970851,
+                        "lng": 37.5273206197085
+                    }
+                }
+            },
+            "place_id": "ChIJQ2emNWRMtUYRUtDaBkcX5_o",
+            "plus_code": {
+                "compound_code": "PG3H+HF Western Administrative Okrug, Moscow, Russia",
+                "global_code": "9G7VPG3H+HF"
+            },
+            "types": [
+                "establishment",
+                "point_of_interest",
+                "university"
+            ]
+        }
+    ],
+    "status": "OK"
+}
+lat 55.70393490000001 lng 37.5286696
+ul. Leninskiye Gory, 1, Moskva, Russia, 119991
